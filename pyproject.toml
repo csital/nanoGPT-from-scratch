@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nanogpt-from-scratch"
+version = "0.1.0"
+description = "Build nanoGPT from tutorial by Andrej Karpathy."
+authors = ["Cheryl S <c.k.sital@gmail.com>"]
+readme = "README.md"
+# packages = [{include = "nanogpt_from_scratch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^1.13.1"
+pandas = "^1.5.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
