@@ -1,5 +1,6 @@
-from pathlib import Path
 import subprocess
+from pathlib import Path
+
 from path_definitions import REPOSITORY_ROOT
 
 DOWNLOAD_FOLDER = REPOSITORY_ROOT / "downloads"
